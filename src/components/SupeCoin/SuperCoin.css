@@ -1,0 +1,29 @@
+/** @format */
+
+.priceDetailsMain {
+	background: white;
+	border-radius: 2px;
+	min-height: 47px;
+	margin-top: 10px;
+	max-width: 360px !important;
+	margin-bottom: 10px;
+	box-shadow: rgb(0 0 0 / 20%) 0px 1px 1px 0px;
+}
+
+.safePayment {
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1.29;
+	width: 330px;
+	display: block;
+	margin-left: 49px;
+	color: #878787;
+}
+
+.safePaymentImage {
+	width: 29px;
+	height: 36px;
+	margin-right: 20px;
+	float: left;
+	vertical-align: middle;
+}

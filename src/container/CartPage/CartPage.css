@@ -1,0 +1,21 @@
+/** @format */
+
+.cartContainer {
+	display: flex;
+	max-width: 1260px;
+	min-height: 50vh;
+	margin: 15px auto;
+}
+
+.flexRow {
+	display: flex;
+}
+
+.cartCard {
+	width: "calc(100% - 400px)";
+	overflow: "hidden";
+	background: var(--color-white-bg);
+	border-radius: 2px;
+	min-height: 47px;
+	box-shadow: rgb(0 0 0 / 20%) 0px 1px 1px 0px;
+}

@@ -1,0 +1,95 @@
+/** @format */
+
+.footerBody {
+	display: flex;
+	background-color: #172337;
+
+	font-size: 14px;
+	width: 100%;
+}
+
+.row {
+	/* width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	flex-shrink: 0;
+	max-width: 1730px;
+	min-width: 150px;
+	flex-basis: auto; */
+	width: 100%;
+	margin-top: auto;
+	display: flex;
+	flex: 1 1 auto;
+	overflow: auto;
+}
+
+.footerMain {
+	display: flex;
+	flex: 1 1 auto;
+	overflow: hidden;
+	max-width: calc(100% - 10%);
+	margin-left: 65px;
+	padding-top: 40px;
+}
+
+.footerMainSub {
+	flex: 1;
+	text-align: left;
+	margin-top: 0px;
+}
+
+.footerContent {
+	color: #878787;
+	font-size: 12px;
+	font-weight: 400;
+	margin-bottom: 9px;
+}
+.footerLink {
+	line-height: 2;
+	font-size: 13px;
+	font-weight: 500;
+	color: #fff;
+	display: block;
+	font-weight: 400;
+	font-size: 12px;
+}
+
+.footerMailUs {
+	border-left: 1px solid #454d5e;
+	padding: 0 25px;
+}
+.footerAddress {
+	font-style: normal;
+	color: #fff;
+	background-color: #172337;
+}
+.footerAddressSub {
+	background-color: #fff;
+	font-size: 12px;
+}
+.footerAddressContent {
+	margin: 0;
+	padding: 0;
+	line-height: normal;
+}
+
+.footerBottom {
+	border-top: 1px solid #454d5e;
+	padding: 25px 0;
+	margin-top: 40px;
+	width: 100%;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-justify-content: space-evenly;
+	-ms-flex-pack: space-evenly;
+	justify-content: space-evenly;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.footerBottomSub {
+	color: #fff;
+	margin-left: 8px;
+}

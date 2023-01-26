@@ -1,0 +1,45 @@
+/** @format */
+.orderDetails {
+	background: white;
+	min-width: 100%;
+	box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+		0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+	border-radius: 2px;
+	margin: 0 auto;
+	padding: 10px 20px 20px 20px;
+}
+.orderItemContainer {
+	padding: 10px;
+	box-sizing: border-box;
+	text-decoration: none;
+	color: black;
+	font-weight: 500;
+	display: flex;
+}
+.orderImgContainer {
+	width: 80px;
+	height: 80px;
+	overflow: hidden;
+	text-align: center;
+}
+.orderImg {
+	max-width: 80px;
+	max-height: 80px;
+}
+.orderRow {
+	display: inline-flex;
+	flex: 1;
+}
+.orderName {
+	width: 300px;
+	box-sizing: border-box;
+	padding: 0 20px;
+	font-size: 14px;
+}
+.orderPrice {
+	box-sizing: border-box;
+	padding: 0 40px;
+	display: flex;
+	align-items: flex-start;
+	font-size: 14px;
+}
